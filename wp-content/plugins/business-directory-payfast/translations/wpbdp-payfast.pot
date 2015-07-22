@@ -1,0 +1,84 @@
+# Copyright (C) 2015 Business Directory Plugin - PayFast Payment Module
+# This file is distributed under the same license as the Business Directory Plugin - PayFast Payment Module package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - PayFast Payment Module\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-directory-payfast\n"
+"POT-Creation-Date: 2015-04-07 16:49:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-04-07 12:07-0500\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: BD Team <support@businessdirectoryplugin.com>\n"
+"Language-Team: BD Team <support@businessdirectoryplugin.com>\n"
+"Language: en\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: business-directory-payfast.php:54
+msgctxt "wpbdp-payfast"
+msgid "Business Directory - PayFast Module requires Business Directory Plugin >= %s."
+msgstr ""
+
+#: business-directory-payfast.php:64
+msgid "South African Rand (ZAR)"
+msgstr ""
+
+#: class-payfast-gateway.php:27
+msgid "PayFast Gateway Settings"
+msgstr ""
+
+#: class-payfast-gateway.php:30
+msgid "Activate PayFast?"
+msgstr ""
+
+#: class-payfast-gateway.php:35
+msgid "Merchant E-Mail"
+msgstr ""
+
+#: class-payfast-gateway.php:38
+msgid "Merchant ID"
+msgstr ""
+
+#: class-payfast-gateway.php:41
+msgid "Merchant Key"
+msgstr ""
+
+#: class-payfast-gateway.php:54
+msgid "%s is missing."
+msgstr ""
+
+#: class-payfast-gateway.php:95
+msgid "Pay Now"
+msgstr ""
+
+#: class-payfast-gateway.php:96
+msgid "Pay Now with PayFast"
+msgstr ""
+
+#: class-payfast-gateway.php:124
+msgid "The payment has been canceled at your request."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin - PayFast Payment Module"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.businessdirectoryplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Business Directory Payment Gateway for PayFast.  Allows you to collect payments from Business Directory Plugin "
+"listings via PayFast."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""

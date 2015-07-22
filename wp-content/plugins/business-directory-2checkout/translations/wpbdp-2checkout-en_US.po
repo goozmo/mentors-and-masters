@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - 2Checkout\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-"
+"directory-2checkout\n"
+"POT-Creation-Date: 2015-04-07 16:49:10+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BD Team <support@businessdirectoryplugin.com>\n"
+"Language-Team: BD Team <support@businessdirectoryplugin.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: business-directory-twocheckout.php:43
+msgid ""
+"Business Directory Plugin - 2Checkout Gateway Module requires Business "
+"Directory Plugin >= %s."
+msgstr ""
+
+#: business-directory-twocheckout.php:51
+msgid ""
+"Due to 2Checkout limitations only lengths multiples of a week can be used "
+"for recurring fees. All other fees will be charged as non-recurring during "
+"the checkout."
+msgstr ""
+
+#: class-2checkout-gateway.php:13
+msgid "2Checkout"
+msgstr ""
+
+#: class-2checkout-gateway.php:32
+msgid ""
+"For recurring payments to work you need to <a>specify an Instant "
+"Notification URL</a> in your 2Checkout dashboard."
+msgstr ""
+
+#: class-2checkout-gateway.php:33
+msgid "Please use %s as the Instant Notification URL."
+msgstr ""
+
+#: class-2checkout-gateway.php:47
+msgctxt "admin settings"
+msgid "2Checkout Gateway Settings"
+msgstr ""
+
+#: class-2checkout-gateway.php:51
+msgctxt "admin settings"
+msgid "Activate 2Checkout?"
+msgstr ""
+
+#: class-2checkout-gateway.php:57
+msgctxt "admin settings"
+msgid "2Checkout seller/vendor ID"
+msgstr ""
+
+#: class-2checkout-gateway.php:68
+msgid "2Checkout seller/vendor ID missing."
+msgstr ""
+
+#: class-2checkout-gateway.php:116
+msgid "Pay with 2Checkout"
+msgstr ""

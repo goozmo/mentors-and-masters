@@ -1,0 +1,45 @@
+
+body.wp-admin #wpbdp-listing-attachments .add-attachment {
+	margin-bottom: 10px;
+}
+
+body.wp-admin #wpbdp-listing-attachments .listing-attachment {
+	margin-bottom: 5px;
+}
+
+body.wp-admin #wpbdp-listing-attachments .listing-attachment a.delete-link {
+	float: right;
+	color: #ff0000;
+	visibility: hidden;
+}
+
+body.wp-admin #wpbdp-listing-attachments .listing-attachment:hover a.delete-link {
+	visibility: visible;
+}
+
+/*
+ * Attachments upload iframe.
+ */
+
+.iframe #wpbdp-attachments-upload {
+	margin: 20px;
+}
+
+.iframe #wpbdp-attachments-upload h1 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.iframe #wpbdp-attachments-upload form label {
+	display: block;
+	font-weight: bold;
+}
+
+.iframe #wpbdp-attachments-upload form input[type="text"] {
+	width: 60%;
+}
+
+.iframe #wpbdp-attachments-upload div.error {
+    margin-left: 0;
+    margin-right: 0;
+}

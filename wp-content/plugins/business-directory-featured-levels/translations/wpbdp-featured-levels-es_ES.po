@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - Featured Levels\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-directory-featured-"
+"levels\n"
+"POT-Creation-Date: 2015-04-07 16:49:46+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BD Team <support@businessdirectoryplugin.com>\n"
+"Language-Team: BD Team <support@businessdirectoryplugin.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: business-directory-featured-levels.php:20
+msgid "featured level"
+msgstr "nivel destacado"
+
+#: business-directory-featured-levels.php:21
+msgid "featured levels"
+msgstr "niveles destacados"
+
+#: business-directory-featured-levels.php:28
+msgid "Order"
+msgstr "Orden"
+
+#: business-directory-featured-levels.php:29
+msgid "Name"
+msgstr "Nombre"
+
+#: business-directory-featured-levels.php:30
+msgid "Cost"
+msgstr "Precio"
+
+#: business-directory-featured-levels.php:64
+msgid "Edit"
+msgstr "Editar"
+
+#: business-directory-featured-levels.php:69
+msgid "Delete"
+msgstr "Eliminar"
+
+#: business-directory-featured-levels.php:124
+msgid ""
+"<div class=\"error\"><p>Business Directory - Featured Levels Module requires "
+"Business Directory Plugin >= %s.</p></div>"
+msgstr ""
+"<div class=\"error\"><p>Business Directory - Featured Levels Module requiere "
+"Business Directory Plugin >= %s.</p></div>"
+
+#: business-directory-featured-levels.php:229
+#: business-directory-featured-levels.php:230
+msgid "Manage Featured Levels"
+msgstr "Administrar Niveles Destacados"
+
+#: business-directory-featured-levels.php:235
+#: business-directory-featured-levels.php:236
+msgid "Manage Restrictions"
+msgstr "Administrar Restricciones"
+
+#: business-directory-featured-levels.php:270
+#: templates/featured-level-form.tpl.php:2
+msgid "Add Featured Level"
+msgstr "Agregar Nivel Destacado"
+
+#: business-directory-featured-levels.php:275
+msgid ""
+"Business Directory will always have two levels: The \"Normal Listing\" and "
+"\"Featured Listing\". They cannot be deleted, but you can change what users "
+"have access to."
+msgstr ""
+"El Directorio de Negocios siempre tendrá dos niveles: el nivel \"Listado "
+"Normal\" y \"Listado Destacado\". Estos no pueden eliminarse pero puede "
+"modificarse a lo que los usuarios tienen acceso."
+
+#: business-directory-featured-levels.php:295
+msgid "Featured levels updated."
+msgstr "Niveles Destacados actualizados."
+
+#: business-directory-featured-levels.php:324
+msgid "Level deleted."
+msgstr "Nivel eliminado."
+
+#: business-directory-featured-levels.php:330
+msgid ""
+"Are you sure you want to delete the \"%s\" featured level?. All listings on "
+"this level will be automatically downgraded."
+msgstr ""
+"Está seguro de que desea eliminar el nivel destacado \"%s\"? Todos los "
+"listados en ese nivel serán automáticamente degradados al nivel anterior."
+
+#: business-directory-featured-levels.php:335
+msgid "Delete Featured Level"
+msgstr "Eliminar Nivel Destacado"
+
+#: business-directory-featured-levels.php:395
+msgid "Level name is required."
+msgstr "El nombre del nivel es requerido."
+
+#: business-directory-featured-levels.php:401
+msgid "Level cost must be a non-negative decimal number."
+msgstr "El precio de un nivel destacado debe ser un decimal no negativo."
+
+#: business-directory-featured-levels.php:406
+msgid "At least one field must be selected for the level."
+msgstr "Al menos uno de los campos debe ser seleccionado para el nivel."
+
+#: restrictions.php:61
+msgid "Unlimited content length for your listing."
+msgstr "Contenido ilimitado para su listado."
+
+#: restrictions.php:63
+msgid "Character limit of %d characters for your listing content."
+msgstr "Límite de %d caracteres para el contenido de su listado."
+
+#: restrictions.php:68
+msgid "Google Maps support."
+msgstr "Soporte para Google Maps."
+
+#: restrictions.php:73
+msgid "Ratings support."
+msgstr "Soporte para ratings y calificaciones."
+
+#: restrictions.php:78
+msgid "Ability to attach files to your listing."
+msgstr "Abilidad de adjuntar archivos a su listado."
+
+#: restrictions.php:160
+msgid "%s exceeds the character limit of %d characters."
+msgstr "%s excede el límite de %d caracteres."
+
+#: restrictions.php:214
+msgid "characters left."
+msgstr "caracteres disponibles."
+
+#: restrictions.php:490
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: restrictions.php:493
+msgid "Ratings"
+msgstr "Calificaciones"
+
+#: restrictions.php:497
+msgid "File Attachments"
+msgstr "Archivos Adjuntos"
+
+#: restrictions.php:502
+msgid "Listing contact form"
+msgstr "Formulario de contacto"
+
+#: restrictions.php:518
+msgid "Premium Modules"
+msgstr "Módulos Premium"
+
+#: restrictions.php:522
+msgid "Field Display Access"
+msgstr "Campos de Formulario"
+
+#: restrictions.php:526
+msgid "Character Count Limits"
+msgstr "Límites de caracteres"
+
+#: restrictions.php:769
+msgid "Use attachment defaults"
+msgstr "Utilizar configuración por defecto para adjuntos"
+
+#: restrictions.php:776
+msgid "Use custom options"
+msgstr "Utilizar opciones específicas"
+
+#: restrictions.php:780
+msgid "Maximum number of attachments per listing"
+msgstr "Máximo número de archivos adjuntos por listado"
+
+#: restrictions.php:787
+msgid "Maximum attachment size (in KB)"
+msgstr "Máximo tamaño de adjuntos (en KB)"
+
+#: templates/capability.tpl.php:8
+msgid "Allow access to \"%s\" for the following levels/fee plans"
+msgstr "Permitir acceso a \"%s\" para los siguientes niveles/comisiones"
+
+#: templates/capability.tpl.php:18 templates/character-limit.tpl.php:13
+#: templates/custom-fields.tpl.php:32
+msgid "Listing Level"
+msgstr "Nivel de Listado"
+
+#: templates/capability.tpl.php:21 templates/capability.tpl.php:52
+msgid "Allow access?"
+msgstr "Permitir acceso?"
+
+#: templates/capability.tpl.php:36 templates/capability.tpl.php:67
+msgid "+ Show Advanced Configuration"
+msgstr "+ Mostrar Configuración Avanzada"
+
+#: templates/capability.tpl.php:49 templates/character-limit.tpl.php:31
+msgid "Listing Fee"
+msgstr "Comisión de Listado"
+
+#: templates/character-limit.tpl.php:5
+msgctxt "wpbdp-featured-levels"
+msgid "\"%s\" field character limit"
+msgstr "Límite de caracteres del campo \"%s\""
+
+#: templates/character-limit.tpl.php:16 templates/character-limit.tpl.php:34
+msgid "Limit"
+msgstr "Límite"
+
+#: templates/custom-fields.tpl.php:3
+msgid ""
+"Specify which fields should be visible/editable for listings depending on "
+"their featured level status or selected fee plan. Checked fields will be "
+"visible for that fee plan or featured level. For a better user experience, "
+"we recommend that higher levels should have access to more than lower levels."
+msgstr ""
+"Especifique cuáles campos son visibles/editables para los listados "
+"dependiendo del nivel destacado del listado o la comisión. Campos marcados "
+"serán visibles para esa comisión o nivel destacado. Para una mejor "
+"experiencia de usuario, recomendamos que los niveles superiores tengan "
+"acceso a más que los niveles inferiores."
+
+#: templates/custom-fields.tpl.php:9
+msgid ""
+"The following fields cannot be restricted because of WordPress requirements "
+"for displaying a custom post type:"
+msgstr ""
+"Los siguientes campos no pueden restringirse debido a que son requeridos por "
+"WordPress:"
+
+#: templates/custom-fields.tpl.php:17
+msgid ""
+"They must always be displayed and therefore, Featured levels cannot restrict "
+"them. They have been disabled in the fields below."
+msgstr ""
+"Siempre deben ser presentados y por lo tanto no pueden restringirse. Han "
+"sido deshabitados en los campos abajo."
+
+#: templates/custom-fields.tpl.php:25
+msgid "Fields by listing level"
+msgstr "Campos por nivel de listado"
+
+#: templates/custom-fields.tpl.php:35 templates/custom-fields.tpl.php:69
+msgid "Form Fields"
+msgstr "Campos de Formulario"
+
+#: templates/custom-fields.tpl.php:59
+msgid "Fields by listing fee"
+msgstr "Campos por comisión de listado"
+
+#: templates/custom-fields.tpl.php:66
+msgid "Fee"
+msgstr "Comisión"
+
+#: templates/featured-level-form.tpl.php:20
+msgid "Level Name"
+msgstr "Nombre de Nivel"
+
+#: templates/featured-level-form.tpl.php:32
+msgid "Upgrade Cost"
+msgstr "Costo de Mejora"
+
+#: templates/featured-level-form.tpl.php:46
+msgid "Level Description"
+msgstr "Descripción de Nivel"
+
+#: templates/featured-level-form.tpl.php:54
+msgid "Custom Form Fields"
+msgstr "Campos de Formulario Personalizados"
+
+#: templates/featured-level-form.tpl.php:59
+msgid "Fields for this level"
+msgstr "Campos para este nivel"
+
+#: templates/featured-level-form.tpl.php:76
+msgctxt "form-fields admin"
+msgid "Update Level"
+msgstr "Actualizar Nivel"
+
+#: templates/featured-level-form.tpl.php:78
+msgctxt "form-fields admin"
+msgid "Add Level"
+msgstr "Agregar Nivel"
+
+#: templates/misc.tpl.php:2
+msgid ""
+"Set a field to \"0\" for Unlimited characters, otherwise enter a specific "
+"character limit to be enforced for the \"Long Description\" (content) field "
+"at that level."
+msgstr ""
+"Ingrese \"0\" en un campo para caracteres ilimitados. De lo contrario, "
+"ingrese un valor específico que será verificado para el campo de contenido "
+"cuando se envíe el listado."
+
+#: templates/misc.tpl.php:18
+msgid "Misc. Settings"
+msgstr "Configuraciones Varias"
+
+#: templates/misc.tpl.php:27
+msgctxt "wpbdp-featured-levels"
+msgid ""
+"Make featured listings links crawable by search engines (remove nofollow)?"
+msgstr ""
+"Permitir que los enlaces de los listados destacados sean seguidos por los "
+"motores de búsqueda (no usar nofollow)?"
+
+#: templates/misc.tpl.php:29
+msgctxt "wpbdp-featured-levels"
+msgid "This setting overrides any field-specific configuration."
+msgstr ""
+"Esta configuración sobreescribe cualquier configuración de campo específica."
+
+#: templates/restrictions.tpl.php:7
+msgid ""
+"Featured Levels allows you to restrict access to certain features for fee "
+"plans and featured listing levels. You can configure what plans have access "
+"to your features here."
+msgstr ""
+"\"Administrar Restricciones\" le permiten restringir acceso a ciertas "
+"características de acuerdo a la comisión y nivel del listado. Puede "
+"configurar qué comisiones/niveles tienen acceso a sus características aquí."
+
+#: templates/restrictions.tpl.php:14
+msgid "Enable feature restrictions?"
+msgstr "Habilitar restricciones de características?"
+
+#: templates/restrictions.tpl.php:38
+msgid "No settings are currently available."
+msgstr "No hay configuraciones disponibles actualmente."
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin - Featured Levels Module"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.businessdirectoryplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds support to restrict available features/fields on a per paid level "
+"basis, for payment plans or featured listings.  Requires BD 3.1 or higher."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""

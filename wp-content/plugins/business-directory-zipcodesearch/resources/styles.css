@@ -1,0 +1,14 @@
+.widget_wpbdp_zipsearchwidget .zipcode-search-zip, .widget_wpbdp_searchwidget .zipcode-search-zip {
+    width: 90%;
+}
+
+.widget_wpbdp_zipsearchwidget .invalid {
+    border: 1px solid red;
+}
+
+.widget_wpbdp_zipsearchwidget .invalid-msg {
+    display: none;
+    margin: 4px 0 4px 0;
+    font-size: 10px;
+    color: red;
+}

@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - PayFast\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-directory-payfast\n"
+"POT-Creation-Date: 2015-04-07 16:49:57+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BD Team <support@businessdirectoryplugin.com>\n"
+"Language-Team: BD Team <support@businessdirectoryplugin.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: business-directory-payfast.php:54
+msgctxt "wpbdp-payfast"
+msgid ""
+"Business Directory - PayFast Module requires Business Directory Plugin >= %s."
+msgstr ""
+"Business Directory - PayFast Module requiere Business Directory Plugin >= %s."
+
+#: business-directory-payfast.php:64
+msgid "South African Rand (ZAR)"
+msgstr "Rand sudafricano (ZAR)"
+
+#: class-payfast-gateway.php:27
+msgid "PayFast Gateway Settings"
+msgstr "Configuración de PayFast"
+
+#: class-payfast-gateway.php:30
+msgid "Activate PayFast?"
+msgstr "Activar PayFast?"
+
+#: class-payfast-gateway.php:35
+msgid "Merchant E-Mail"
+msgstr "E-mail de Merchant"
+
+#: class-payfast-gateway.php:38
+msgid "Merchant ID"
+msgstr "ID de Merchant"
+
+#: class-payfast-gateway.php:41
+msgid "Merchant Key"
+msgstr "Llave de Merchant"
+
+#: class-payfast-gateway.php:54
+msgid "%s is missing."
+msgstr "Falta %s."
+
+#: class-payfast-gateway.php:95
+msgid "Pay Now"
+msgstr "Pagar Ahora"
+
+#: class-payfast-gateway.php:96
+msgid "Pay Now with PayFast"
+msgstr "Pagar ahora con PayFast"
+
+#: class-payfast-gateway.php:124
+msgid "The payment has been canceled at your request."
+msgstr "El pago ha sido cancelado por orden suya."
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin - PayFast Payment Module"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.businessdirectoryplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Business Directory Payment Gateway for PayFast.  Allows you to collect "
+"payments from Business Directory Plugin listings via PayFast."
+msgstr ""
+"Pasarela de pago dfe PayFast para Business Directory. Le permite recibir "
+"pagos para los listados de Business Directory utilizando PayFast."
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""
+
+#~ msgid "Upgrade to featured listing."
+#~ msgstr "Mejora a listado destacado."
+
+#~ msgid ""
+#~ "Payment for upgrading to featured listing \"%s\" with listing ID: %s."
+#~ msgstr "Pago para mejorar a destacado el listado \"%s\" con ID: %s."
+
+#~ msgid "Listing payment."
+#~ msgstr "Pago por listado."
+
+#~ msgid "Payment for listing \"%s\" with listing ID: %s."
+#~ msgstr "Pago por el listado \"%s\" con ID: %s."
+
+#~ msgid "Return to Directory"
+#~ msgstr "Regresar al Directorio"
+
+#~ msgid "Return to listing"
+#~ msgstr "Regresar al listado"
+
+#~ msgid "There was an error processing your request."
+#~ msgstr "Ocurrió un error procesando su petición."
+
+#~ msgid "PDT Key"
+#~ msgstr "Llave PDT"

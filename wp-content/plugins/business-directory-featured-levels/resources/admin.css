@@ -1,0 +1,48 @@
+
+table.wpbdp-restrictions-table {
+    width: 85%;
+    border: solid 1px #999;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+table.wpbdp-restrictions-table .toggle-link {
+    color: #000;
+    text-decoration: none;
+}
+
+table.wpbdp-restrictions-table th.capability-name {
+    font-size: 125%;
+}
+
+table.wpbdp-restrictions-table td.subheader {
+    background-color: #ddd;
+    padding: 3px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+table.wpbdp-restrictions-table tr td {
+    padding: 3px 8px;
+}
+
+table.wpbdp-restrictions-table td {
+    color: #494949;
+}
+
+table.wpbdp-restrictions-table td.enabledcol {
+    text-align: center;
+}
+
+table.wpbdp-restrictions-table tr.advanced-controls td {
+    font-size: 95%;
+}
+
+table.wpbdp-restrictions-table tr.advanced-controls td a.toggle {
+}
+
+table.wpbdp-restrictions-table tr.advanced-controls td .controls {
+    padding: 10px 0 10px 15px;
+    border-bottom: dotted 1px #efefef;
+}

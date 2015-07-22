@@ -1,0 +1,48 @@
+.goo-dailyq
+{
+	text-align: center;
+}
+
+.goo-dailyq-container
+{
+	overflow: hidden;
+}
+
+.goo-dailyq-clipping-container
+{
+	transform: translate3d( 0,0,0, );
+	transition: transform 0.5s ease-in-out;
+	-webkit-transition: transform 0.5s ease-in-out;
+}
+
+div[id*='goo-dailyq-content-inst']
+{
+	float: left;
+}
+
+.goo-dailyq-content
+{
+	margin-bottom: 60px;
+	
+	font-family: 'Signika-Regular', 'Tahoma', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.goo-dailyq-content q:before,
+.goo-dailyq-content q:after
+{
+	content: none;
+}
+
+.goo-dialyq-author *
+{
+	font-family: 'Raleway-light', sans-serif;
+	font-size: 21px;
+}
+
+.dailyq_clear
+{
+	width: 100%;
+	clear: both;
+}

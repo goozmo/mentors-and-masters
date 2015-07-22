@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - Stripe Gateway Module\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-directory-stripe\n"
+"POT-Creation-Date: 2014-06-19 11:21:49+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BD Team <support@businessdirectoryplugin.com>\n"
+"Language-Team: BD Team <support@businessdirectoryplugin.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: business-directory-stripe.php:43
+msgid ""
+"Business Directory - Stripe Gateway Module requires Business Directory "
+"Plugin >= %s."
+msgstr ""
+"Business Directory - Stripe Gateway Module requiere Business Directory "
+"Plugin >= %s."
+
+#: class-stripe-gateway.php:9
+msgid "Stripe"
+msgstr ""
+
+#: class-stripe-gateway.php:25
+msgid "Stripe Gateway Settings"
+msgstr "Configuración de Stripe"
+
+#: class-stripe-gateway.php:28
+msgid "Activate Stripe?"
+msgstr "Habilitar Stripe?"
+
+#: class-stripe-gateway.php:33
+msgid "TEST Secret Key"
+msgstr "Clave Secreta (TEST)"
+
+#: class-stripe-gateway.php:38
+msgid "TEST Publishable Key"
+msgstr "Clave Pública (TEST)"
+
+#: class-stripe-gateway.php:43
+msgid "LIVE Secret Key"
+msgstr "Clave Secreta (LIVE)"
+
+#: class-stripe-gateway.php:48
+msgid "LIVE Publishable Key"
+msgstr "Clave Pública (LIVE)"
+
+#: class-stripe-gateway.php:60
+msgid "%s is missing."
+msgstr "%s falta."
+
+#: class-stripe-gateway.php:72
+msgid "Pay now via Stripe"
+msgstr "Pague ahora vía Stripe"
+
+#: class-stripe-gateway.php:115
+msgid "Your payment was declined (incorrect credit card information)."
+msgstr "Su pago fue declinado (información de tarjeta de crédito incorrecta)."
+
+#: class-stripe-gateway.php:118
+msgid "An unknown error occurred while your payment was being processed."
+msgstr "Un error desconocido ocurrió mientras se procesaba su pago."
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin - Stripe Gateway Module"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.businessdirectoryplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Business Directory Payment Gateway for Stripe.  Allows you to collect "
+"payments from Business Directory Plugin listings via Stripe."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.skylineconsult.com"
+msgstr ""

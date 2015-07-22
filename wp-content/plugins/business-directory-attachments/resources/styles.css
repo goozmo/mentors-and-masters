@@ -1,0 +1,123 @@
+
+.wpbdp-listing-form-attachments .attachments {
+	margin-bottom: 20px;
+}
+
+.wpbdp-listing-form-attachments .attachments .attachment {
+	border-bottom: dotted 1px #eee;	
+	font-size: 95%;
+	padding: 2px 0;
+}
+
+.wpbdp-listing-form-attachments .attachments .attachment .url {
+	font-weight: bold;
+}
+
+.wpbdp-listing-form-attachments .attachments .attachment .description {
+	color: #666;
+}
+
+.wpbdp-listing-form-attachments .attachments .attachment:hover .actions {
+	visibility: visible;
+}
+
+.wpbdp-listing-form-attachments .attachments .attachment .actions {
+	clear: both;	
+	float: right;
+	margin-right: 10px;
+	visibility: hidden;
+}
+
+.wpbdp-listing-form-attachments .attachments .attachment:hover .actions a {
+	border-radius: 3px;
+	color: #fff;	
+	font-size: 10px;
+	font-weight: bold;	
+	padding: 3px 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.wpbdp-listing-form-attachments .attachments .attachment:hover .actions a.delete {
+	background: #ff0000;
+}
+
+
+/*
+ * Add attachment form.
+ */
+
+.wpbdp-listing-form-attachments .attachments-new {
+	background: #efefef;
+	border-radius: 6px;
+	margin: 0 0 20px 0;
+	padding: 10px;	
+}
+
+.wpbdp-listing-form-attachments .attachments-new h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.wpbdp-listing-form-attachments .attachments-new .attachment-data {
+	margin-left: 10px;
+	width: 60%;
+	float: left;
+}
+
+.wpbdp-listing-form-attachments .attachment-data input[type="text"] {
+	width: 60%;
+}
+
+.wpbdp-listing-form-attachments .attachments-new dl.info {
+	font-size: 12px;
+	padding: 0 0 0 10px;
+	margin: 0;
+	width: 35%;
+	float: right;
+	border-left: solid 1px #aaa;
+}
+
+.wpbdp-listing-form-attachments .attachments-new dl.info dt {
+	font-weight: bold;
+	margin: 0 8px 0 0;
+	padding: 0;
+}
+
+.wpbdp-listing-form-attachments .attachments-new dl.info dd {
+	margin: 0;
+	padding: 0;
+}
+
+/* {{ Attachments view. */
+.wpbdp-listing-attachments ul.attachments.with-icons li {
+    list-style-type: none;
+}
+
+.wpbdp-listing-attachments ul.attachments.with-icons .attachment .attachment-icon {
+    border-radius: none;
+    box-shadow: none;
+    background: none;
+    width: 18px;
+    vertical-align: middle;
+}
+
+/* }} */
+
+
+/* {{ Mobile. */
+@media screen and (max-width: 500px) {
+    .wpbdp-listing-attachments ul.attachments li {
+        margin-left: 8px;
+    }
+
+    .wpbdp-listing-form-attachments .attachments-new dl.info {
+        float: none;
+        border: none;
+        width: 100%;
+        padding-bottom: 8px;
+        border-bottom: solid 1px #aaa;
+        margin-bottom: 8px;
+    }
+}
+/* }} */

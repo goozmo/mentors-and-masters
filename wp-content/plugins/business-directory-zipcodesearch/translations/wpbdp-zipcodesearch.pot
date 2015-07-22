@@ -1,0 +1,472 @@
+# Copyright (C) 2015 Business Directory Plugin - ZIP Search Module
+# This file is distributed under the same license as the Business Directory Plugin - ZIP Search Module package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - ZIP Search Module\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-directory-zipcodesearch\n"
+"POT-Creation-Date: 2015-04-07 16:50:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-04-07 12:14-0500\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: BD Team <support@businessdirectoryplugin.com>\n"
+"Language-Team: BD Team <support@businessdirectoryplugin.com>\n"
+"Language: en\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: admin.php:21 admin.php:22
+msgid "Import ZIP code Database"
+msgstr ""
+
+#: admin.php:33 templates/admin-import.tpl.php:51
+msgctxt "import"
+msgid "Start Import"
+msgstr ""
+
+#: admin.php:34
+msgctxt "import"
+msgid "Pause Import"
+msgstr ""
+
+#: admin.php:35 templates/admin-import.tpl.php:53
+msgctxt "import"
+msgid "Resume Import"
+msgstr ""
+
+#: admin.php:51
+msgid ""
+"Business Directory has detected an unfinished ZIP code database import. Please go to <a>Import ZIP code "
+"database</a> and either resume or cancel the import. If you are aware the import is in progress you can "
+"ignore this message."
+msgstr ""
+
+#: admin.php:53
+msgid ""
+"Business Directory - ZIP Code Search Module is active, but no valid ZIP code database available. You must "
+"first download and configure a ZIP code database for your region. Please <a href=\"%s\">import a ZIP code "
+"database file</a>."
+msgstr ""
+
+#: admin.php:62
+msgid ""
+"Settings for Business Directory - ZIP Code Search Module have been recently changed and a cache rebuild is "
+"needed. Go to <a>ZIP Search settings</a> and click \"Rebuild Cache\". Not doing this results in slow "
+"searches."
+msgstr ""
+
+#: admin.php:78
+msgid "No valid ZIP code database found."
+msgstr ""
+
+#: admin.php:80
+msgid "Go to <a href=\"%s\">Import ZIP code database</a> and follow installation instructions."
+msgstr ""
+
+#: admin.php:95
+msgid "Delete database"
+msgstr ""
+
+#: admin.php:100
+msgid "Update available!"
+msgstr ""
+
+#: admin.php:107
+msgid "To install additional databases go to <a>Import ZIP code database</a>."
+msgstr ""
+
+#: admin.php:117
+msgid "OK"
+msgstr ""
+
+#: admin.php:119
+msgid "Invalid cache. Please rebuild."
+msgstr ""
+
+#: admin.php:122
+msgid "Rebuild cache"
+msgstr ""
+
+#: admin.php:149
+msgctxt "cache"
+msgid "Please wait. Rebuilding cache... %d listings remaining."
+msgstr ""
+
+#: admin.php:166
+msgctxt "import"
+msgid "The import was canceled."
+msgstr ""
+
+#: admin.php:184
+msgctxt "import"
+msgid "Could not upload database file: %s."
+msgstr ""
+
+#: admin.php:187
+msgctxt "import"
+msgid "Database file uploaded. Please proceed with the import."
+msgstr ""
+
+#: admin.php:193
+msgctxt "import"
+msgid "Using database file \"%s\". Please proceed with the import."
+msgstr ""
+
+#: admin.php:246
+msgctxt "import"
+msgid "Importing database... %d items remaining."
+msgstr ""
+
+#: admin.php:249
+msgid "There is no import in progress."
+msgstr ""
+
+#: admin.php:286
+msgctxt "import"
+msgid "A previous database import was corrupted. All import information was deleted."
+msgstr ""
+
+#: business-directory-zipcodesearch.php:35
+msgctxt "widget"
+msgid "Business Directory - Location Search"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:36
+msgctxt "widget"
+msgid "Searches the Business Directory listings by ZIP code."
+msgstr ""
+
+#: business-directory-zipcodesearch.php:43
+msgctxt "widgets"
+msgid "Location Search"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:59
+msgctxt "widget"
+msgid "Title:"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:67
+msgctxt "widget"
+msgid "Field Label:"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:76
+msgctxt "widget"
+msgid "Units:"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:78 business-directory-zipcodesearch.php:338
+msgctxt "settings"
+msgid "Miles"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:79 business-directory-zipcodesearch.php:339
+msgctxt "settings"
+msgid "Kilometers"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:121
+msgctxt "settings"
+msgid " Only this %s"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:123 business-directory-zipcodesearch.php:463
+msgctxt "settings"
+msgid "Distance Search"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:126 business-directory-zipcodesearch.php:466
+msgctxt "settings"
+msgid "Find listings within "
+msgstr ""
+
+#: business-directory-zipcodesearch.php:152
+msgctxt "widget"
+msgid "Search"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:268
+msgid ""
+"<div class=\"error\"><p>Business Directory - ZIP Code Search Module requires Business Directory Plugin >= %s."
+"</p></div>"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:313
+msgctxt "wpbdp-zipcodesearch"
+msgid "ZIP Search"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:315
+msgctxt "wpbdp-zipcodesearch"
+msgid "General Settings"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:318
+msgid "-- Select a field --"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:325
+msgctxt "settings"
+msgid "Use this field for postal code/ZIP code information"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:333
+msgctxt "settings"
+msgid "Units"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:344
+msgctxt "settings"
+msgid "Use these custom distance options for searches with postal codes"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:349
+msgctxt "settings"
+msgid "Radius options"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:352
+msgctxt "settings"
+msgid "Comma separated list"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:357
+msgctxt "settings"
+msgid "Sort listings from closest to farthest in the search results?"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:362
+msgctxt "wpbdp-zipcodesearch"
+msgid "Database Information"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:363
+msgctxt "admin settings"
+msgid "Installed ZIP/Postal Code databases"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:364
+msgctxt "admin settings"
+msgid "Cache Status"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:399
+msgctxt "templates"
+msgid "No listings found."
+msgstr ""
+
+#: business-directory-zipcodesearch.php:462
+msgctxt "settings"
+msgid " Only this ZIP"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:886
+msgctxt "databases"
+msgid "United States"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:887
+msgctxt "databases"
+msgid "United Kingdom (Great Britain)"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:888
+msgctxt "databases"
+msgid "Australia"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:889
+msgctxt "databases"
+msgid "Canada"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:890
+msgctxt "databases"
+msgid "Mexico"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:891
+msgctxt "databases"
+msgid "Austria"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:892
+msgctxt "databases"
+msgid "Germany"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:893
+msgctxt "databases"
+msgid "Belgium"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:894
+msgctxt "databases"
+msgid "Switzerland"
+msgstr ""
+
+#: business-directory-zipcodesearch.php:895
+msgctxt "databases"
+msgid "Liechtenstein"
+msgstr ""
+
+#: templates/admin-import.tpl.php:1
+msgid "Import ZIP Code Database"
+msgstr ""
+
+#: templates/admin-import.tpl.php:6
+msgid "3. Database Import"
+msgstr ""
+
+#: templates/admin-import.tpl.php:10
+msgctxt "import"
+msgid "File"
+msgstr ""
+
+#: templates/admin-import.tpl.php:15
+msgctxt "import"
+msgid "Database"
+msgstr ""
+
+#: templates/admin-import.tpl.php:20
+msgctxt "import"
+msgid "Revision"
+msgstr ""
+
+#: templates/admin-import.tpl.php:25
+msgctxt "import"
+msgid "Items"
+msgstr ""
+
+#: templates/admin-import.tpl.php:32
+msgctxt "import"
+msgid "Progress"
+msgstr ""
+
+#: templates/admin-import.tpl.php:40
+msgctxt "import"
+msgid "Import has not started."
+msgstr ""
+
+#: templates/admin-import.tpl.php:42
+msgctxt "import"
+msgid "Import paused."
+msgstr ""
+
+#: templates/admin-import.tpl.php:56
+msgctxt "import"
+msgid "Cancel Import"
+msgstr ""
+
+#: templates/admin-import.tpl.php:64
+msgid "3. Database imported successfully!"
+msgstr ""
+
+#: templates/admin-import.tpl.php:66
+msgctxt "import"
+msgid "Please delete the \"zipcodes.db\" file from your \"db/\" directory since it is no longer needed."
+msgstr ""
+
+#: templates/admin-import.tpl.php:69
+msgctxt "import"
+msgid "The ZIP code database <strong>%s</strong> has been imported and is ready to be used."
+msgstr ""
+
+#: templates/admin-import.tpl.php:72
+msgid "You can now:"
+msgstr ""
+
+#: templates/admin-import.tpl.php:74
+msgid "Configure ZIP Search options"
+msgstr ""
+
+#: templates/admin-import.tpl.php:75
+msgid "Download/install additional databases"
+msgstr ""
+
+#: templates/admin-import.tpl.php:76
+msgid "← Return to Business Directory Admin"
+msgstr ""
+
+#: templates/admin-import.tpl.php:87
+msgctxt "import"
+msgid ""
+"Business Directory has detected you have an old-style database setup (zipcodes.db). If you wish so, Business "
+"Directoy can migrate this ZIP code information to the new format so you don't need to download and install a "
+"new database."
+msgstr ""
+
+#: templates/admin-import.tpl.php:90
+msgctxt "import"
+msgid "Ignore the file. I want to import a new database."
+msgstr ""
+
+#: templates/admin-import.tpl.php:91
+msgctxt "import"
+msgid "Proceed with migration"
+msgstr ""
+
+#: templates/admin-import.tpl.php:97
+msgctxt "wpbdp-zipcodesearch"
+msgid "1. Download one or more databases from %s"
+msgstr ""
+
+#: templates/admin-import.tpl.php:103
+msgid "2. Upload database file(s)"
+msgstr ""
+
+#: templates/admin-import.tpl.php:110
+msgctxt "import"
+msgid "Database File"
+msgstr ""
+
+#: templates/admin-import.tpl.php:119
+msgctxt "import"
+msgid "Upload File"
+msgstr ""
+
+#: templates/admin-import.tpl.php:125
+msgid "... or choose a manually uploaded database file"
+msgstr ""
+
+#: templates/admin-import.tpl.php:130
+msgctxt "import"
+msgid "Version %s"
+msgstr ""
+
+#: templates/admin-import.tpl.php:134
+msgctxt "import"
+msgid "Use this file"
+msgstr ""
+
+#: templates/admin-import.tpl.php:139
+msgctxt "import"
+msgid ""
+"You can manually upload database files via FTP or similar if the upload form does not work for you due to "
+"upload restrictions on your host. Please use the \"%s\" folder inside the plugin to store these files and "
+"reload this page."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin - ZIP Search Module"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.businessdirectoryplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add the search your Business Birectory plugin listings by ZIP or Postal Code within a given radius.  "
+"Requires BD 3.1 or higher."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://businessdirectoryplugin.com"
+msgstr ""

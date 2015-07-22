@@ -1,0 +1,1 @@
+[06-Apr-2015 17:33:28 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/mandm/public_html/wp-content/themes/enfold/index.php on line 9

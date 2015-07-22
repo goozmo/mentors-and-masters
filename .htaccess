@@ -1,0 +1,19 @@
+Redirect 301 /explore/events/ http://mandm.lsp.goozmo.com/cm-events/
+Redirect 301 /explore/register/ /explore/business-directory/?action=submitlisting
+
+AuthType Basic
+AuthName "public_html"
+AuthUserFile "/home/mandm/.htpasswds/public_html/passwd"
+require valid-user
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

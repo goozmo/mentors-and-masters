@@ -1,0 +1,110 @@
+#wpbdp-claim-listings-initial-setup {
+}
+
+#wpbdp-claim-listings-initial-setup.done {
+    border-left-color: green;
+}
+
+#wpbdp-claim-listings-initial-setup .setup-choice {
+    margin-bottom: 5px;
+}
+
+#wpbdp-claim-listings-initial-setup select {
+    display: inline;
+}
+
+#wpbdp-claim-listings-initial-setup input.dismiss {
+    margin-left: 10px;
+}
+
+#wpbdp-claim-listings-admin .info-boxes {
+}
+
+#wpbdp-claim-listings-admin .info-box {
+    float: left;
+    width: 350px;
+}
+
+#wpbdp-claim-listings-admin .info-box.claim-info {
+    margin-right: 20px;
+}
+
+#wpbdp-claim-listings-admin dl {
+    margin-left: 10px;
+}
+
+#wpbdp-claim-listings-admin dt {
+    font-weight: bold;
+}
+
+#wpbdp-claim-listings-admin dd {
+    -webkit-margin-start: 0;
+    margin-left: 10px;
+}
+
+.wpbdp-claim-listings-dialog table.form-table {
+    margin-left: 10px;
+}
+
+.wpbdp-claim-listings-dialog p.buttons {
+    float: right;
+}
+
+.wpbdp-claim-listings-dialog p.buttons .button-primary {
+    margin-left: 10px;
+}
+
+#wpbdp-claim-listings-reject textarea {
+    width: 90%;
+    min-height: 150px;
+}
+
+#wpbdp-claim-listings-requestinfo input[type="text"] {
+    width: 90%;
+}
+
+#wpbdp-claim-listings-requestinfo textarea {
+    width: 90%;
+    min-height: 200px;
+}
+
+.wpbdp-claim-listings-dialog form input.error,
+.wpbdp-claim-listings-dialog form textarea.error {
+    border: solid 1px red;
+}
+
+#wpbdp-claim-listings-claims .column-listing {
+    width: 40%;
+}
+
+#wpbdp-claim-listings-claims .column-details {
+    width: 25%;
+}
+
+#wpbdp-claim-listings-claims .column-status .tag.approved, #wpbdp-claim-listing-admin .tag.approved {
+    background: green;
+}
+
+#wpbdp-claim-listings-claims .column-status .tag.pending, #wpbdp-claim-listing-admin .tag.pending {
+    background: blue;
+}
+
+#wpbdp-claim-listings-claims .column-status .tag.rejected, #wpbdp-claim-listing-admin .tag.rejected {
+    background: red;
+}
+
+#wpbdp-claim-listings-actions {
+    margin-top: 10px;
+}
+
+#listing-metabox-generalinfo .tag.claimed, table td.column-claim_status .tag.claimed {
+    background: green;
+}
+
+#listing-metabox-generalinfo .tag.claims-pending, table td.column-claim_status .tag.claims-pending {
+    background: red;
+}
+
+#listing-metabox-generalinfo .tag.pending, table td.column-claim_status .tag.pending {
+    background: orange;
+}

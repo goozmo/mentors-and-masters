@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - Enhanced Categories\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-directory-"
+"categories\n"
+"POT-Creation-Date: 2014-06-19 03:25:42+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jorge Torres <jorge@sinapsis.co>\n"
+"Language-Team: Business Directory Plugin <support@businessdirectoryplugin."
+"com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: business-directory-categories.php:41
+msgid ""
+"<div class=\"error\"><p>Business Directory - Enhanced Categories Module "
+"requires Business Directory Plugin >= %s.</p></div>"
+msgstr ""
+"<div class=\"error\"><p>Business Directory - Enhanced Categories Module "
+"requiere Business Directory Plugin >= %s.</p></div>"
+
+#: business-directory-categories.php:70
+msgctxt "settings"
+msgid "Main Directory Behavior"
+msgstr "Comportamiento general del Directorio"
+
+#: business-directory-categories.php:71
+msgctxt "settings"
+msgid "Settings related to the Improved Categories module."
+msgstr "Configuraciones relacionadas con el módulo de Categorías."
+
+#: business-directory-categories.php:74
+msgctxt "settings"
+msgid "Operation Mode"
+msgstr "Modo de Operación"
+
+#: business-directory-categories.php:79
+msgctxt "settings"
+msgid "Parent + Child categories"
+msgstr "Categorías Padre + Hijo"
+
+#: business-directory-categories.php:80
+msgctxt "settings"
+msgid "Parent only categories"
+msgstr "Solo categorías padre"
+
+#: business-directory-categories.php:84
+msgctxt "settings"
+msgid "Only allow listings in child (leaf) categories"
+msgstr ""
+"Permitir listados únicamente en categorías hijas de más bajo nivel (hojas)"
+
+#: business-directory-categories.php:90
+msgctxt "settings"
+msgid "Number of category columns to use"
+msgstr "Número de columnas de categorías a utilizar"
+
+#: business-directory-categories.php:93
+msgid ""
+"BD will try to honor this setting as much as possible, but custom CSS or "
+"theme code could prevent this from working."
+msgstr ""
+"Business Directory tratará de honrar esta configuración tanto como sea "
+"posible, pero CSS personalizado o código del tema podrían evitar que "
+"fucionara correctamente."
+
+#: business-directory-categories.php:169
+msgid "-- Select a category --"
+msgstr "-- Elija una categoría --"
+
+#: category-icons.php:37
+msgid "Category Images"
+msgstr "Imágenes de Categorías"
+
+#: category-icons.php:38
+msgid "Display the category list using images"
+msgstr "Utilizar imágenes al mostrar la lista de categorías"
+
+#: category-icons.php:39
+msgid "Category image width (px)"
+msgstr "Ancho de imagen de categoría (px)"
+
+#: category-icons.php:40
+msgid "Category image height (px)"
+msgstr "Alto de imagen de categoría (px)"
+
+#: category-icons.php:118
+msgid "Image"
+msgstr "Imagen"
+
+#: category-icons.php:139
+msgid "Change Image"
+msgstr "Cambiar Imagen"
+
+#: category-icons.php:139
+msgid "Add Image"
+msgstr "Agregar Imagen"
+
+#: category-icons.php:209 category-icons.php:243
+msgid "Upload Image"
+msgstr "Subir Imagen"
+
+#: category-icons.php:211
+msgid "Upload"
+msgstr "Subir"
+
+#: category-icons.php:221
+msgid "Category Image"
+msgstr "Imagen de Categoría"
+
+#: category-icons.php:232
+msgid "Delete"
+msgstr "Eliminar"
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin - Enhanced Categories Module"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.businessdirectoryplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Category goodies for Business Directory Plugin, including parent/child "
+"hierarchy navigation, images on categories and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://businessdirectoryplugin.com"
+msgstr ""

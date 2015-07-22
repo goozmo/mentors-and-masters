@@ -1,0 +1,52 @@
+.book-connect-inst
+{
+	margin-bottom: 40px;
+}
+	
+	.book-connect-inst-clear
+	{
+		width: 100%;
+		clear: both;
+	}
+
+	.book-connect-inst figure
+	{
+		width: 33.3%; float: left;
+		box-sizing: border-box;
+	}
+		
+		.book-connect-inst figure img
+		{
+			width: 80%;
+		}
+
+	.book-connect-inst section
+	{
+		width: 66.7%; float: left;
+		box-sizing: border-box;
+		
+	}
+	
+		.book-connect-inst section *
+		{
+			font-family: 'Signika-light', 'Tahoma', sans-serif;
+			font-weight: 300;
+		}
+	
+		.book-connect-inst section h3
+		{
+			color: rgb( 76, 76, 76 );
+			
+		}
+		
+		.book-connect-inst section p
+		{
+			color: rgb( 127, 127, 127 );
+			
+		}
+		
+		.book-connect-inst section a
+		{
+			color: rgb( 255, 159, 90 );
+			
+		}
