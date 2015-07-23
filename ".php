@@ -17,7 +17,7 @@
 		
 		<tr>
 			<td>
-				Business Name
+				Name
 			</td>
 			<td>
 				<i class="fa fa-check"></i>
@@ -32,7 +32,22 @@
 		
 		<tr>
 			<td>
-				Your Name
+				Name 2
+			</td>
+			<td>
+				<i class="fa fa-check"></i>
+			</td>
+			<td>
+				<i class="fa fa-check"></i>
+			</td>
+			<td>
+				<i class="fa fa-check"></i>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				Specialty (keywords)
 			</td>
 			<td>
 				<i class="fa fa-check"></i>
@@ -48,6 +63,21 @@
 		<tr>
 			<td>
 				Phone Number(s)
+			</td>
+			<td>
+				<i class="fa fa-check"></i>
+			</td>
+			<td>
+				<i class="fa fa-check"></i>
+			</td>
+			<td>
+				<i class="fa fa-check"></i>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				Website
 			</td>
 			<td>
 				<i class="fa fa-check"></i>
@@ -92,16 +122,16 @@
 		
 		<tr>
 			<td>
-				Summary of Services and/or Products offered
-			</td>
-			<td>
-				50 words
+				Description of Services and/or Products offered
 			</td>
 			<td>
 				100 words
 			</td>
 			<td>
 				200 words
+			</td>
+			<td>
+				300 words
 			</td>
 		</tr>
 		
@@ -152,7 +182,7 @@
 		
 		<tr>
 			<td>
-				Listing appear before all standard listings **
+				Your Listing appear before all standard listings **
 			</td>
 			<td>
 				
@@ -167,7 +197,7 @@
 		
 		<tr>
 			<td>
-				Upload a Photo / Logo
+				Option to Upload a Photo & Logo to Your Profile
 			</td>
 			<td>
 				
@@ -182,7 +212,7 @@
 		
 		<tr>
 			<td>
-				Profile includes a bio
+				Your Profile Includes Your Training, Certification, Experience
 			</td>
 			<td>
 				
@@ -197,7 +227,7 @@
 		
 		<tr>
 			<td>
-				Profile includes your credentials
+				Your Profile Includes Links to Your Social Media Accounts
 			</td>
 			<td>
 				
@@ -212,7 +242,7 @@
 		
 		<tr>
 			<td>
-				Profile includes link to your website
+				Your Profile Includes Map of Your Location
 			</td>
 			<td>
 				
@@ -227,52 +257,7 @@
 		
 		<tr>
 			<td>
-				Profile includes link to your Social Media Accounts
-			</td>
-			<td>
-				
-			</td>
-			<td>
-				<i class="fa fa-check"></i>
-			</td>
-			<td>
-				<i class="fa fa-check"></i>
-			</td>
-		</tr>
-		
-		<tr>
-			<td>
-				Profile includes link to testimonials on your website
-			</td>
-			<td>
-				
-			</td>
-			<td>
-				<i class="fa fa-check"></i>
-			</td>
-			<td>
-				<i class="fa fa-check"></i>
-			</td>
-		</tr>
-		
-		<tr>
-			<td>
-				Profile includes Google Maps with your location
-			</td>
-			<td>
-				
-			</td>
-			<td>
-				<i class="fa fa-check"></i>
-			</td>
-			<td>
-				<i class="fa fa-check"></i>
-			</td>
-		</tr>
-		
-		<tr>
-			<td>
-				Listing appears before all Premium & Standard listings **
+				Your Profile Includes Additional Photos
 			</td>
 			<td>
 				
@@ -287,7 +272,7 @@
 		
 		<tr>
 			<td>
-				Your business featured on MMD home page
+				Your Profile Includes Links to Your Blog
 			</td>
 			<td>
 				
@@ -302,7 +287,7 @@
 		
 		<tr>
 			<td>
-				Your quotes featured on MMD home page
+				Your Listing Appears Before all Premium & Standard Listings **
 			</td>
 			<td>
 				
@@ -317,7 +302,7 @@
 		
 		<tr>
 			<td>
-				Your articles featured on MMD blog
+				Your Business Featured on MMD Home Page
 			</td>
 			<td>
 				
@@ -332,22 +317,7 @@
 		
 		<tr>
 			<td>
-				Your profile includes link to your articles on MMD blog
-			</td>
-			<td>
-				
-			</td>
-			<td>
-				
-			</td>
-			<td>
-				<i class="fa fa-check"></i>
-			</td>
-		</tr>
-				
-		<tr>
-			<td>
-				Your videos featured on MMD blog
+				Your Articles Featured on MMD Blog
 			</td>
 			<td>
 				
@@ -362,7 +332,7 @@
 		
 		<tr>
 			<td>
-				Your Profile Includes link to your videos on MMD blog
+				Your Videos Featured on MMD Blog
 			</td>
 			<td>
 				
@@ -377,7 +347,7 @@
 		
 		<tr>
 			<td>
-				Your business featured on MMD social media
+				Your Business Featured on MMD Social Media
 			</td>
 			<td>
 				
@@ -392,7 +362,7 @@
 		
 		<tr>
 			<td>
-				Your books featured on MMD 'Book Connection' paged
+				Your Books Featured on MMD 'Book Connection' Page
 			</td>
 			<td>
 				

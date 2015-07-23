@@ -90,6 +90,7 @@ add_action( 'widgets_init', 'goo_load_sidebars' );
 
 include( $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/mentorsmasters-child/inc/widgets/auto_menu_sidebar_widget.class.php' );
 include( $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/mentorsmasters-child/inc/widgets/twitterfeed-widget.php' );
+include( $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/mentorsmasters-child/inc/widgets/mm_sidebar_callout_widget.php' );
 
 function goo_load_widget() {
 	
@@ -97,7 +98,8 @@ function goo_load_widget() {
 		'auto_menu_sidebar_widget',
 		'book_connection_sidebar_widget',
 		'cm_events_widget',
-		'twitterfeed_widget'
+		'twitterfeed_widget',
+		'mm_callout_sidebar_widget'
 	);
 	
 	foreach($widgets as $key => $value){

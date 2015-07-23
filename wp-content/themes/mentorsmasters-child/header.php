@@ -128,7 +128,9 @@ html
 	?>
 		
 	<div id='main' data-scroll-offset='<?php echo avia_header_setting('header_scroll_offset'); ?>'>
+	
 
-	<?php do_action('ava_after_main_container'); ?>
+	
+	<?php do_action('avia_after_main_container'); ?>
 	
 	

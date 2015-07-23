@@ -799,15 +799,54 @@ tr.wpbdp-billing-field td
 			color: rgb( 255,255,255 );
 		}
 
-.page .title_container
+#top .title_container .container
+{
+	min-height: inherit;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.title_container,
+.title_container
 {
 	background-image: url('/wp-content/themes/mentorsmasters-child/img/BG-blue.jpg');
 	background-size: cover;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-	.page #main .title_container h1.main-title a
+	.title_container .container,
+	.title_container .container
+	{
+		padding-top: 0;
+		margin-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	#main .title_container h1.main-title a,
+	#main .title_container h1.main-title,
+	#top #main .title_container strong.main-title,
+	#top #main .title_container strong.main-title a
 	{
 		color: rgb( 255,255,255 );
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: 1em;
+		font-size: 36px;
+		height: auto;
+		min-height: none;
+		display: block;
+		padding: 10px 0;
+	}
+	
+	#top #main .title_container strong.main-title a
+	{
+		font-weight: 600;
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 
 
@@ -856,7 +895,7 @@ main ul li,
 
 .container .av-content-small.units
 {
-	width: 100%;
+/* 	width: 100%; */
 	border: none;
 	
 }
@@ -900,4 +939,50 @@ main ul li,
 .wpbdp-bar.cf form#wpbdmsearchform
 {
 	margin-top: 30px;
+}
+
+.mm-callout-widget-inst
+{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb( 200, 200, 200 );
+}
+
+.mm-callout-widget-inst:last-of-type
+{
+	border-bottom: none;
+}
+
+.mm-callout-widget-inst .mm-callout-icon img
+{
+	max-width: 33.3%;
+	display: block;
+	margin: 0 auto;
+}
+
+.mm-callout-widget-inst .mm-callout-content *
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.mm-callout-widget-inst .mm-callout-content
+{
+	margin-top: 20px;
+}
+
+.mm-callout-widget-inst .mm-callout-content h3
+{
+	font-size: 1.4em;
+}
+
+.mm-callout-widget-inst .mm-callout-content h4,
+.mm-callout-widget-inst .mm-callout-content h4 a
+{
+	color: rgb( 66,164,199 );
+}
+
+.av-main-nav > li > a
+{
+	font-size: 14px;
 }
