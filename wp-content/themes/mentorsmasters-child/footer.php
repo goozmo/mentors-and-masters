@@ -246,6 +246,19 @@ jQuery(document).ready(function() {
 	jQuery('input:text').mouseup(function(e) { 
 		return false; 
 	});
+	
+	
+	var _gooTheLink = document.getElementById( 'footer' ).getElementsByClassName('widget-cm-menu');
+
+	for( var i=0, n=_gooTheLink.length; i<n; i++ ){
+		var linksList = _gooTheLink[i].getElementsByTagName('a');
+		for( var x=0, y=linksList.length; x<y; x++ ){
+			if( linksList[x].href.match( /\/explore\/register\/$/gi ) ){
+				linksList[x].href = "/wp-admin";
+			}
+		}
+	}
+	
 });
 	
 </script>

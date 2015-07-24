@@ -42,6 +42,10 @@ if (have_posts()) :
      */
     $size = strpos($blog_style, 'big') ? (strpos($current_post['post_layout'], 'sidebar') !== false) ? 'entry_with_sidebar' : 'entry_without_sidebar' : 'square';
     
+    if( get_post_type() === 'bookconnection' ){
+	    $size = 'full';
+    }
+    
     if(!empty($avia_config['preview_mode']) && !empty($avia_config['image_size']) && $avia_config['preview_mode'] == 'custom') $size = $avia_config['image_size'];
 	$current_post['slider']  	= get_the_post_thumbnail($current_post['the_id'], $size);
 	

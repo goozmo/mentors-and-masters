@@ -1,7 +1,6 @@
 <?php
 global $avia_config, $post_loop_count;
 
-
 if(empty($post_loop_count)) $post_loop_count = 1;
 $blog_style = !empty($avia_config['blog_style']) ? $avia_config['blog_style'] : avia_get_option('blog_style','multi-big');
 if(is_single()) $blog_style = avia_get_option('single_post_style','single-big');
@@ -212,7 +211,7 @@ if (have_posts()) :
 
             wp_link_pages($avia_wp_link_pages_args);
 
-            if(is_single() && !post_password_required())
+            if(is_single() && !post_password_required() )
             {
             	//tags on single post
             	if(has_tag())

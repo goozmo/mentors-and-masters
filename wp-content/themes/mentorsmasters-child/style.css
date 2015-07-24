@@ -809,7 +809,7 @@ tr.wpbdp-billing-field td
 .title_container,
 .title_container
 {
-	background-image: url('/wp-content/themes/mentorsmasters-child/img/BG-blue.jpg');
+	background-image: url('/wp-content/themes/mentorsmasters-child/img/BG-green.jpg');
 	background-size: cover;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -985,4 +985,108 @@ main ul li,
 .av-main-nav > li > a
 {
 	font-size: 14px;
+}
+
+#_goo-slider-cover form#wpbdmsearchform input#searchsubmit
+{
+	position: relative;
+}
+
+.alternate_color .breadcrumb, .alternate_color .breadcrumb a, #top .alternate_color.title_container .main-title, #top .alternate_color.title_container .main-title a
+{
+	color: rgb( 255,255,255 );
+}
+
+.flexible-frontend-login
+{
+	line-height: 1.6em;
+	float:right;
+}
+
+.flexible-frontend-login .ffl-left
+{
+	left: 0;
+	width: 280px;
+	z-index: 1000;
+}
+
+.flexible-frontend-login a
+{
+	color: rgb( 255,255,255 );
+	font-size: 0.7em;
+    font-weight: 500;
+	text-transform: uppercase;
+}
+
+.flexible-frontend-login a:hover
+{
+	color: rgb( 255,255,255 );
+	text-decoration: underline;
+}
+
+.ffl-form,
+table.ffl-form-table tbody,
+.ffl-form-table-row td[class*="ffl-form-table-cell"],
+.ffl-popup-content
+{
+	border-top-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-image-width:0 ;
+}
+
+.ffl-form-table-row td[class*="ffl-form-table-cell"]
+{
+	padding: 0;
+}
+
+.flexible-frontend-login a.ffl-close-popup-link,
+.flexible-frontend-login a#ffl-lostpassword
+{
+	color: rgb( 66,164,199 );
+}
+
+#ffl-submit
+{
+	background-color: rgb( 156, 203, 59 );
+	color: rgb( 255,255,255 );
+	border: none;
+	padding: 10px 0;
+}
+
+.ffl-popup-content
+{
+	padding: 20px;
+}
+
+.image-overlay-inside,
+.avia_transform a .image-overlay
+{
+	display: none !important;
+}
+
+.single-bookconnection .big-preview img
+{
+	max-height: 300px;
+	width: auto;
+}
+
+.big-preview.single-big {
+    padding: 0 50px 20px 0;
+}
+
+.single-bookconnection ._goo-archive-address
+{
+	display: none;
+}
+
+#footer .widgettitle
+{
+	margin-top: 0px;
+}
+
+.cm-menu-t1
+{
+	text-transform: uppercase;
 }

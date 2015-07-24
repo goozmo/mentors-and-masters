@@ -148,11 +148,11 @@ function custom_login_logo() {
     	{
 	        background-size: cover;
 	        background-position : center center;
-	        background-color: rgb(66,164,199);
+	        background-color: rgb(255,255,255);
         }
         html
         {
-	        background-color: rgb(66,164,199);
+	        background-color: rgb(255,255,255);
         }
     	.login #login
     	{
@@ -161,7 +161,7 @@ function custom_login_logo() {
     	}
         .login #login h1 a
         {
-	        background-image:url(/wp-content/uploads/logoMM-w.png);
+	        background-image:url(/wp-content/uploads/logoMM.png);
 	        width: 100%;
 	        background-size: contain;
         }
@@ -169,7 +169,7 @@ function custom_login_logo() {
         {
 	        padding: 30px 40px 40px;
 	        border-radius: 4px;
-	        background : rgba( 0,0,0,0.6 );
+	        background : rgb( 66,164,199 );
         }
         .login #login form label
         {
@@ -183,9 +183,12 @@ function custom_login_logo() {
 	    .login #login #nav a,
         .login #login #backtoblog a
         {
+	        color: rgb( 90,90,90 );
+        }
+        #login form #pass_strength_msg
+        {
 	        color: rgb( 255,255,255 );
         }
-        
     </style>";
 }
 

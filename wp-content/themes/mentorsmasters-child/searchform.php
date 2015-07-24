@@ -26,9 +26,9 @@ $placeholder = is_front_page() === true ? __('Enter Specialty, City or Keyword C
 	<div>
 		<input type="hidden" name="action" value="search">
         <input type="hidden" name="page_id" value="4">
-         <input type="hidden" name="dosrch" value="1">
-		<input type="submit" value="search" id="searchsubmit" class="button <?php echo $class; ?>" />
+        <input type="hidden" name="dosrch" value="1">
 		<input id="intextbox" maxlength="150" name="q" size="20" type="text" value="" placeholder="<?php echo $placeholder; ?>">
+		<input type="submit" value="search" id="searchsubmit" class="button <?php echo $class; ?>" />
 		<?php 
 		
 		// allows to add aditional form fields to modify the query (eg add an input with name "post_type" and value "page" to search for pages only)
