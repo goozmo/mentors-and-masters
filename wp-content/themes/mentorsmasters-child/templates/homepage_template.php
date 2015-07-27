@@ -23,8 +23,8 @@ global $avia_config;
 				<?php wd_slider(1); ?>
 				<div id="_goo-slider-cover">
 					<div class="container">
-						<h1>Your Journey, Many Guides, One Directory.<span class="mini-me">&trade;</span></h1>
-						<h2>We are here to help you connect with business mentors, life coaches, healers, teachers and other masters of transformation who offer expert guidance and inspired products and services to help you move forward in all areas of your life.</h2>
+						<h1>Your journey, many guides, one directory.<span class="mini-me">&trade;</span></h1>
+						<h2>We are here to help you connect with business mentors, life coaches, healers, teachers, and other masters of transformation who offer expert guidance and inspired products and services to help you move forward in all areas of your life.</h2>
 						<?php get_search_form( true ); ?>
 					</div>
 					

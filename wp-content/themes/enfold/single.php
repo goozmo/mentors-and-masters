@@ -16,7 +16,15 @@
 		$t_link = get_permalink($new);
 		$t_sub =  avia_post_meta($new, 'subtitle');
 	}
-
+	
+	if( get_post_type() !== 'post' ) : 
+		// echo get_post_type();
+		$_title_ = get_post_type();
+		if( $_title_ === 'cmevents' ) $title = 'Events';
+		elseif( $_title_ === 'bookconnection' ) $title = 'Book Connection';
+		
+	endif;
+	
 	if( get_post_meta(get_the_ID(), 'header', true) != 'no') echo avia_title(array('heading'=>'strong', 'title' => $title, 'link' => $t_link, 'subtitle' => $t_sub));
 	
 

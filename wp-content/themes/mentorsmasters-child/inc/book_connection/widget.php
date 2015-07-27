@@ -62,6 +62,7 @@ class book_connection_sidebar_widget extends WP_Widget {
 			}
 			$_thumb = get_the_post_thumbnail( $_id, array( 95, 125 ) );
 			$_url = get_permalink( $_id );
+			$_store = get_post_meta( $_id, '_goo_book_url', true );
 			?>
 			<div id="book-connect-inst<?php echo $i; ?>" class="book-connect-inst">
 				<div class="book-connect-inst-inner">
@@ -70,8 +71,14 @@ class book_connection_sidebar_widget extends WP_Widget {
 					</figure>
 					<section>
 						<h3><?php if( $_title ) echo $_title; ?></h3>
+						<?php if( $_author ) : ?>
+						<h4><?php echo $_author; ?></h4>
+						<?php endif; ?>
 						<p><?php if( $_excerpt ) echo $_excerpt; ?></p>
 						<a href="<?php if( $_url ) echo $_url; ?>">Read More</a>
+						<?php if( $_store ) : ?>
+						<a href="<?php echo $_store; ?>" class="button" target="_blank">BUY</a>
+						<?php endif; ?>
 					</section>
 				</div>
 				<div class="book-connect-inst-clear"></div>

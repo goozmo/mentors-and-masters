@@ -74,6 +74,7 @@ if($headerS['header_topbar'] == true)
 							
 			        ?>
 			        <?php flexible_frontend_login(); ?>
+			        <?php wpfp_link(); ?>
 			      </div>
 		</div>
 

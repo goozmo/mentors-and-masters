@@ -459,7 +459,7 @@ class WPBDP_ZIPCodeSearchModule {
         $post_values = isset( $_REQUEST['_x'] ) ? $_REQUEST['_x'] : array();
 
         $html .= '<input type="text" name="_x[zs_zip]" value="' . ( wpbdp_getv( $post_values, 'zs_zip', '' ) ) . '" size="5" class="zipcode-search-zip" /><br />';
-        $html .= '<label><input type="radio" name="_x[zs_mode]" value="zip" ' . ( wpbdp_getv( $post_values, 'zs_mode', 'distance' ) == 'zip' ? 'checked="checked"' : '' ) . ' onchange="if (this.checked) { jQuery(\'.zipcode-search-distance-fields\').hide(); } " /> ' . _x(' Only this ZIP', 'settings', 'wpbdp-zipcodesearch' ) . '</label><br />';
+        $html .= '<label><input type="radio" name="_x[zs_mode]" value="zip" ' . ( wpbdp_getv( $post_values, 'zs_mode', 'distance' ) == 'zip' ? 'checked="checked"' : '' ) . ' onchange="if (this.checked) { jQuery(\'.zipcode-search-distance-fields\').hide(); } " /> ' . _x(' Only this ZIP/Postal Code', 'settings', 'wpbdp-zipcodesearch' ) . '</label><br />';
         $html .= '<label><input type="radio" name="_x[zs_mode]" value="distance" ' . ( wpbdp_getv( $post_values, 'zs_mode', 'distance' ) == 'distance' ? 'checked="checked"' : '' ) . ' onchange="if (this.checked) { jQuery(\'.zipcode-search-distance-fields\').show(); } " /> ' . _x( 'Distance Search', 'settings', 'wpbdp-zipcodesearch' ) . '</label>';
         $html .= '<br/>';
         $html .= '<div class="zipcode-search-distance-fields" style="' . ( wpbdp_getv( $post_values, 'zs_mode', 'distance' ) == 'zip' ? 'display: none;' : '' )  . '">';

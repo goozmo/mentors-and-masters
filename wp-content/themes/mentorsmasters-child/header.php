@@ -11,9 +11,9 @@
 ?>
 <?php 
 if( get_post_meta( get_the_ID(), '_goo_http_redirect_url', true ) ){
-	echo get_post_meta( get_the_ID(), '_goo_http_redirect_url', true );
-	// header("HTTP/1.1 301 Moved Permanently");
-	// header( "Location: " . get_post_meta( get_the_ID(), '_goo_http_redirect_url', true ) );	
+	// echo get_post_meta( get_the_ID(), '_goo_http_redirect_url', true );
+	header("HTTP/1.1 301 Moved Permanently");
+	header( "Location: " . get_post_meta( get_the_ID(), '_goo_http_redirect_url', true ) );	
 }?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="<?php echo " html_{$style} ".$responsive." ".$preloader." ".$av_lightbox." ".avia_header_class_string();?> ">

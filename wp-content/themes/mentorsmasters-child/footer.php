@@ -259,9 +259,56 @@ jQuery(document).ready(function() {
 		}
 	}
 	
-});
 	
+	
+});
+
+jQuery(document).ready(function(){
+	if( document.getElementById( '_goo-listingsbutton' ) ){
+		
+		jQuery( '#_goo-listingsbutton' ).on( 'click', 'button', function(){
+			var _gooConfirm = confirm( 'I have read the listing agreement' );
+			
+			if( _gooConfirm === true ){
+				document.location.href = '/explore/business-directory/?action=submitlisting';
+			}
+			
+		});
+		
+	}
+	
+	if( document.getElementsByClassName( 'wpbdp-field-businesswebsiteaddress' ) ){
+		jQuery( '.wpbdp-field-businesswebsiteaddress' ).each(
+			function(){
+				var theParent = this;
+				jQuery(theParent).find('a').each(
+					function(){
+						jQuery(this).attr('target', '_blank');
+					}
+				)
+			}
+		);
+		console.log( 'find' );
+	}
+	
+});
 </script>
 
+
+<script>
+	    function clearForm( form ){
+		  var fields = form.getElementsByTagName('input');
+		    
+		  for( var i=0, n=fields.length; i<n; i++ ){
+			  if( fields[i].type === "text" ){
+				  fields[i].value = "";
+				}
+		  }
+		  
+		  form.reset();  
+		    
+		  console.log( fields );   
+		}
+    </script>
 </body>
 </html>

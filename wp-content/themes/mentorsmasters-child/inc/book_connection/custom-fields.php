@@ -120,6 +120,7 @@ class Book_connect_meta{
 			*
 		*/
 		$_pre_book_author = get_post_meta( $post->ID, '_goo_book_author', true );
+		$_pre_book_url = get_post_meta( $post->ID, '_goo_book_url', true );
 		
 		
 		// begin main container
@@ -136,6 +137,9 @@ class Book_connect_meta{
 		?>
 		<label for="_goo_book_author"><?php _e( 'Book Author' ); ?></label> <br/><br/>
 		<input id="_goo_book_author" name="_goo_book_author" style="width: 100%; resize: none;" value="<?php echo esc_attr( $_pre_book_author ); ?>" /><br/><br/>
+		
+		<label for="_goo_book_url"><?php _e( 'Store URL:' ); ?></label> <br/><br/>
+		<input id="_goo_book_url" name="_goo_book_url" style="width: 100%; resize: none;" value="<?php echo esc_attr( $_pre_book_url ); ?>" /><br/><br/>
 		
 		<?php
 			

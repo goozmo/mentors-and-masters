@@ -43,7 +43,7 @@ $api = wpbdp_formfields_api();
 		global $wp_query;
 		$no_records = $wp_query->found_posts
 	?>
-    <h3><?php echo $no_records; ?> <?php _ex('Search Results', 'search', 'WPBDM'); ?></h3>    
+    <h3><?php echo $no_records; ?> <?php _ex('Search Result(s)', 'search', 'WPBDM'); ?></h3>    
 
     <?php do_action( 'wpbdp_before_search_results' ); ?>
     <div class="search-results">
@@ -64,19 +64,8 @@ $api = wpbdp_formfields_api();
 		    var toPos = document.getElementsByClassName('search-results')[0].offsetTop || document.getElementsByClassName('search-results')[0].scrollTop;
 		    window.scrollTo( 0, toPos );
 	    });
-	    
-	    function clearForm( form ){
-		  var fields = form.getElementsByTagName('input');
-		    
-		  for( var i=0, n=fields.length; i<n; i++ ){
-			  if( fields[i].type === "text" ){
-				  fields[i].value = "";
-				}
-		  }  
-		    
-		  console.log( fields );   
-		}
-    </script>
+	</script>
+	
     
 <?php endif; ?>
 </div>
