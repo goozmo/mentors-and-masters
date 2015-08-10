@@ -302,6 +302,7 @@ if(!function_exists('_goo_which_archive'))
 
 
 
+/*
 add_action('pre_get_posts','alter_query');
  
 function alter_query($query) {
@@ -325,5 +326,30 @@ function alter_query($query) {
 	//we remove the actions hooked on the '__after_loop' (post navigation)
 	remove_all_actions ( '__after_loop');
 }
+*/
+
+
+
+
+
+
+
+
+
+add_filter('posts_orderby', 'cmevents_sort' );
+function cmevents_sort( $orderby_statement ){
+	
+	// echo $orderby_statement;
+	
+	global $wp_query;
+	if( $wp_query->query['post_type'] === 'cmevents' ){
+		// echo "<pre>";
+		// print_r( $wp_query );
+		// echo "</pre>";
+	}
+}
+
+
+
 
 ?>

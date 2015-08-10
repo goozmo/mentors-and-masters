@@ -1373,6 +1373,13 @@ span.wpfp-span a:hover
 	width: 33.3%;
 }
 
+form#cmevents-searchform input[type=text]
+{
+	max-width: 175px;
+	display: inline-table;
+}
+
+
 /* 
 9494 Ashbury Circle #106
 Parker, CO 80134
