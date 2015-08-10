@@ -310,5 +310,19 @@ jQuery(document).ready(function(){
 		  console.log( fields );   
 		}
     </script>
+    
+    
+<script>
+	if( document.getElementById( 'wpbdp-listing-form-categories' ) ){
+		var _gooForm = document.getElementById( 'wpbdp-listing-form-categories' );
+		var _gooInputs = _gooForm.getElementsByTagName( 'input' );
+		for( var i=0, n=_gooInputs.length; i<n; i++ ){
+			if( _gooInputs[i].getAttribute('name') === 'listingfields[2][]' ){
+				_gooInputs[i].setAttribute( 'checked', 'true');
+				_gooForm.submit();
+			}
+		}
+	}
+</script>
 </body>
 </html>

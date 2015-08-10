@@ -91,9 +91,19 @@ Deepak Chopra</p>
 				</main>
 
 				<?php
-
+				
 				//get the sidebar
-				$avia_config['currently_viewing'] = 'blog';
+				$_goo_post_type = get_post_type();
+				switch( $_goo_post_type ){
+					case $_goo_post_type == 'cmevents' :
+					case $_goo_post_type == 'bookconnection' :
+						$avia_config['currently_viewing'] = 'page';
+						break;
+					default : 
+						$avia_config['currently_viewing'] = 'blog';
+				}
+				
+
 				get_sidebar();
 
 				?>

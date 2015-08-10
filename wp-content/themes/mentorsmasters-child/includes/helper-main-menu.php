@@ -69,12 +69,12 @@ if($headerS['header_topbar'] == true)
 						//phone/info text	
 						$phone			= $headerS['header_phone_active'] != "" ? $headerS['phone'] : "";
 						$phone_class 	= !empty($nav) ? "with_nav" : "";
-						if($phone) 		{ echo "<div class='phone-info {$phone_class}'><span>".do_shortcode($phone)."</span></div>"; }
+						if($phone) 		{ echo "<div class='phone-info {$phone_class}'><span>" . do_shortcode($phone) . "</span></div>"; }
 							
 							
 			        ?>
-			        <?php flexible_frontend_login(); ?>
-			        <?php wpfp_link(); ?>
+			        <?php // flexible_frontend_login(); ?>
+			        <?php // wpfp_link(); ?>
 			      </div>
 		</div>
 

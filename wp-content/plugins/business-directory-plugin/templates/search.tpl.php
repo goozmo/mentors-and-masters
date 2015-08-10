@@ -52,7 +52,10 @@ $api = wpbdp_formfields_api();
     <?php else: ?>
         <?php _ex("No listings found.", 'templates', "WPBDM"); ?>
         <br />
-        <?php echo sprintf('<a href="%s">%s</a>.', wpbdp_get_page_link('main'),
+        
+        <?php 
+	        // Goozmo Done some editing here.  		
+	        echo sprintf('<a href="%s">%s</a>.', '/explore/business-directory/?action=viewlistings',
                            _x('Return to directory', 'templates', 'WPBDM')); ?>    
     <?php endif; ?>
     </div>

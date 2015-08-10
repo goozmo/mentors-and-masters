@@ -699,16 +699,6 @@ tr.wpbdp-billing-field td
 	margin-top: 40px;
 }
 
-.wpbdp-listing-excerpt .wpbdp-field-longbusinessdescription,
-.wpbdp-listing-excerpt .wpbdp-field-shortbusinessdescription,
-.wpbdp-listing-excerpt .wpbdp-field-businesswebsiteaddress,
-.wpbdp-listing-excerpt .wpbdp-field-businessfax,
-.wpbdp-listing-excerpt .wpbdp-field-streetaddress,
-.wpbdp-listing-excerpt .wpbdp-field-stateregion,
-.wpbdp-listing-excerpt .wpbdp-field-zipcode
-{
-	display: none;
-}
 
 .field-value.wpbdp-field-businesstags.wpbdp-field-tags *
 {
@@ -961,7 +951,7 @@ main ul li,
 
 .mm-callout-widget-inst .mm-callout-icon img
 {
-	max-width: 33.3%;
+	max-width: 20%;
 	display: block;
 	margin: 0 auto;
 }
@@ -1285,3 +1275,105 @@ span.wpfp-span a:hover
 {
 	color: rgb( 255, 159, 90 );
 }
+
+
+
+.wpbdp-listings-sort-options
+{
+	display: none !important;
+}
+
+.wpbdmcheckboxclass.wpbdp-inner-checkbox {
+    width: 20%;
+    display: inline-table;
+    padding-right: 20px;
+}
+
+
+.main_color .av-share-box ul
+{
+	color: rgb(156,203, 59);
+}
+
+.wpbdp-listing .listing-details .field-value label
+{
+/* 	display: none; */
+}
+
+
+.field-value.wpbdp-field-streetaddress.wpbdp-field-meta,
+.field-value.wpbdp-field-city.wpbdp-field-meta,
+.field-value.wpbdp-field-state.wpbdp-field-region,
+.field-value.wpbdp-field-zippostalcode.wpbdp-field-meta  
+{
+	width: auto !important;
+	display: inline-table;
+}
+
+.field-value.wpbdp-field-streetaddress.wpbdp-field-meta:after,
+.field-value.wpbdp-field-city.wpbdp-field-meta:after,
+.field-value.wpbdp-field-state.wpbdp-field-region:after
+{
+	content : ",";
+	padding-right: 5px;
+}
+
+.field-value.wpbdp-field-name.wpbdp-field-title
+{
+    font-size: 1.5em;
+    color: rgb(66,164,199);
+}
+
+.field-value.wpbdp-field-name.wpbdp-field-title a
+{
+	color: rgb(66,164,199);
+}
+
+.field-value.wpbdp-field-name.wpbdp-field-title a:hover
+{
+	color: rgb(156,203, 59);
+}
+
+.listings .wpbdp-listing-excerpt
+{
+    padding: 40px 20px;
+}
+
+.field-value.wpbdp-field-specialty.wpbdp-field-meta label
+{
+	display: block;
+	color: rgb(66,164,199);
+}
+
+.field-value.wpbdp-field-name2.wpbdp-field-meta
+{
+    font-weight: bold;
+}
+
+.listings .listing-details .field-value.wpbdp-field-businesscontactemail,
+.listings .listing-details .field-value.wpbdp-field-businesswebsiteaddress  
+{
+	margin-bottom: 0;
+}
+
+.listings .field-value.wpbdp-field-name.wpbdp-field-title
+{
+    margin-bottom: 5px;
+}
+
+.listings .field-value.wpbdp-field-name2.wpbdp-field-meta,
+.listings .field-value.wpbdp-field-specialty.wpbdp-field-meta,
+.listings .field-value.wpbdp-field-shortbusinessdescription.wpbdp-field-excerpt  
+{
+	margin-bottom: 15px;
+}
+
+.wpbdp-listing-single .main-image
+{
+	width: 33.3%;
+}
+
+/* 
+9494 Ashbury Circle #106
+Parker, CO 80134
+*/

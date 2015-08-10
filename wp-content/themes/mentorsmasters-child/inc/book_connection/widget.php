@@ -67,7 +67,9 @@ class book_connection_sidebar_widget extends WP_Widget {
 			<div id="book-connect-inst<?php echo $i; ?>" class="book-connect-inst">
 				<div class="book-connect-inst-inner">
 					<figure>
-						<?php if( $_thumb ) echo $_thumb; ?>
+						<a href="<?php echo $_url; ?>">
+							<?php if( $_thumb ) echo $_thumb; ?>
+						</a>
 					</figure>
 					<section>
 						<h3><?php if( $_title ) echo $_title; ?></h3>
@@ -76,9 +78,6 @@ class book_connection_sidebar_widget extends WP_Widget {
 						<?php endif; ?>
 						<p><?php if( $_excerpt ) echo $_excerpt; ?></p>
 						<a href="<?php if( $_url ) echo $_url; ?>">Read More</a>
-						<?php if( $_store ) : ?>
-						<a href="<?php echo $_store; ?>" class="button" target="_blank">BUY</a>
-						<?php endif; ?>
 					</section>
 				</div>
 				<div class="book-connect-inst-clear"></div>

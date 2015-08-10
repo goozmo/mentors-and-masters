@@ -121,7 +121,8 @@ class Book_connect_meta{
 		*/
 		$_pre_book_author = get_post_meta( $post->ID, '_goo_book_author', true );
 		$_pre_book_url = get_post_meta( $post->ID, '_goo_book_url', true );
-		
+		$_pre_book_url2 = get_post_meta( $post->ID, '_goo_book_url2', true );
+		$_pre_book_url3 = get_post_meta( $post->ID, '_goo_book_url3', true );
 		
 		// begin main container
 		echo "<div id='_goo-book-conn-meta-container'>";
@@ -138,8 +139,14 @@ class Book_connect_meta{
 		<label for="_goo_book_author"><?php _e( 'Book Author' ); ?></label> <br/><br/>
 		<input id="_goo_book_author" name="_goo_book_author" style="width: 100%; resize: none;" value="<?php echo esc_attr( $_pre_book_author ); ?>" /><br/><br/>
 		
-		<label for="_goo_book_url"><?php _e( 'Store URL:' ); ?></label> <br/><br/>
+		<label for="_goo_book_url"><?php _e( 'Amazon Store URL:' ); ?></label> <br/><br/>
 		<input id="_goo_book_url" name="_goo_book_url" style="width: 100%; resize: none;" value="<?php echo esc_attr( $_pre_book_url ); ?>" /><br/><br/>
+		
+		<label for="_goo_book_url2"><?php _e( 'Barnes & Noble Store URL:' ); ?></label> <br/><br/>
+		<input id="_goo_book_url2" name="_goo_book_url2" style="width: 100%; resize: none;" value="<?php echo esc_attr( $_pre_book_url2 ); ?>" /><br/><br/>
+		
+		<label for="_goo_book_url3"><?php _e( 'HayHouse URL:' ); ?></label> <br/><br/>
+		<input id="_goo_book_url3" name="_goo_book_url3" style="width: 100%; resize: none;" value="<?php echo esc_attr( $_pre_book_url3 ); ?>" /><br/><br/>
 		
 		<?php
 			
