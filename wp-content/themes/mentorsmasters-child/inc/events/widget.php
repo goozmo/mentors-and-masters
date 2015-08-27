@@ -73,7 +73,7 @@ class cm_events_widget extends WP_Widget {
 		}
 		
 		if( !empty( $sort_array ) ){
-			array_multisort( $sort_array['end_time'], 'SORT_ASC', $posts_array );
+			array_multisort( $sort_array['end_time'], SORT_ASC, $posts_array );
 		}
 		
 		//echo "<pre>";
@@ -81,15 +81,16 @@ class cm_events_widget extends WP_Widget {
 		//echo "</pre>";
 		
 		
-		$current_time = mktime();
+		$current_time = time();
 		$i = 1;
 		foreach( $posts_array as $index ){
 			$_id = $index->ID;		
 			$post_time =  get_post_meta( $_id, '_goo_cmevent_end', true );
 			$post_time = strtotime( $post_time );
 			// echo $post_time;
+			$_gotPosts = false;
 			if( $post_time >= $current_time && $i <= $no_posts ){
-				
+				$_gotPosts = true;
 				$_title = $index->post_title;
 				
 				$_url = get_permalink( $_id );
@@ -130,7 +131,9 @@ class cm_events_widget extends WP_Widget {
 				$i++;
 			}
 		}
-		
+		if( !$_gotPosts ){
+			echo "no events posted";
+		}
 			
 	}
 

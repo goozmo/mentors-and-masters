@@ -241,8 +241,9 @@ if ( !class_exists( 'avia_post_slider' ) )
 		                                 		'categories'=> array(),
 		                                 		'custom_query'=> array(),
                                                 'offset' => 0,
-                                                'custom_markup' => ''
+                                                'custom_markup' => '',
 		                                 		), $atts, 'av_postslider');
+		                                 
 		}
 
 		public function html()
@@ -453,10 +454,16 @@ if ( !class_exists( 'avia_post_slider' ) )
 		public function query_entries($params = array())
 		{
 			global $avia_config;
-
+			
+			
+			
 			if(empty($params)) $params = $this->atts;
-
-			if(empty($params['custom_query']))
+			
+			
+			if( empty( $params['cmevents'] ) ){
+				
+			}
+			elseif(empty($params['custom_query']))
             {
 				$query = array();
 
@@ -510,7 +517,7 @@ if ( !class_exists( 'avia_post_slider' ) )
 
 
 			$query = apply_filters('avia_post_slide_query', $query, $params);
-
+			
 			$this->entries = new WP_Query( $query );
 
 		    // store the queried post ids in

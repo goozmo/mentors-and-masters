@@ -294,7 +294,7 @@ class WPBDP_RegionFieldsAPI {
         // build options array
         if (!empty($results)) {
             $results = $api->find(array('include' => $results, 'hide_empty' => 0));
-            $regions = array(0 => _x('Select a Region', 'region-selector', 'wpbdp-regions'));
+            $regions = array(0 => _x('Select a State', 'region-selector', 'wpbdp-regions'));
             $show_counts = wpbdp_get_option( 'regions-show-counts' );
 
             foreach ($results as $item) {

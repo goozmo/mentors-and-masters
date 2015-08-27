@@ -235,7 +235,7 @@ if (have_posts()) :
 				if( get_post_meta( $post->ID, $bURL, true ) ) :
 					?>
 					<li>
-						<a href="<?php echo get_post_meta( $post->ID, $bURL, true ) ?>">
+						<a href="<?php echo get_post_meta( $post->ID, $bURL, true ) ?>" target="blank" >
 							<?php if( $label ) : ?>
 							Buy it on <?php echo $label; ?>
 							<?php endif; ?>

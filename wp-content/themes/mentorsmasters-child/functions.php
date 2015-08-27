@@ -302,13 +302,15 @@ if(!function_exists('_goo_which_archive'))
 
 
 
+
+
 /*
 add_action('pre_get_posts','alter_query');
  
 function alter_query($query) {
 	//gets the global query var object
 	
-	global $wp_query;
+	// global $wp_query;
  
 	//gets the front page id set in options
 	//$front_page_id = get_option('page_on_front');
@@ -319,12 +321,12 @@ function alter_query($query) {
 	//if ( !$query->is_main_query() )
 	//return;
  
-	if ( is_search() ) {
-		$query->set('post_type' , array( 'wpbdp_listing', 'attachment', 'nav_menu_item' ));
-	}
+	// if ( is_search() ) {
+	//	$query->set('post_type' , array( 'wpbdp_listing', 'attachment', 'nav_menu_item' ));
+	//}
  
 	//we remove the actions hooked on the '__after_loop' (post navigation)
-	remove_all_actions ( '__after_loop');
+	//remove_all_actions ( '__after_loop');
 }
 */
 
@@ -336,18 +338,22 @@ function alter_query($query) {
 
 
 
+
+/*
 add_filter('posts_orderby', 'cmevents_sort' );
 function cmevents_sort( $orderby_statement ){
 	
 	// echo $orderby_statement;
 	
-	global $wp_query;
-	if( $wp_query->query['post_type'] === 'cmevents' ){
+	//global $wp_query;
+	//if( $wp_query->query['post_type'] === 'cmevents' ){
 		// echo "<pre>";
 		// print_r( $wp_query );
 		// echo "</pre>";
-	}
+	//}
 }
+*/
+
 
 
 

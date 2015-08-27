@@ -87,7 +87,6 @@ if (have_posts()) :
 
 	echo "<article class='".implode(" ", get_post_class('post-entry post-entry-type-'.$post_format . " " . $post_class . " ".$with_slider))."' ".avia_markup_helper(array('context' => 'entry','echo'=>false)).">";
 	
-
         //default link for preview images
         $link = !empty($url) ? $url : get_permalink();
         
@@ -142,7 +141,9 @@ if (have_posts()) :
         echo apply_filters('avf_loop_index_blog_meta', $blog_meta_output);
 
         echo "</div>";
-
+		
+		
+		
         echo "<div class='entry-content-wrapper clearfix {$post_format}-content'>";
             echo '<header class="entry-content-header">';
                 
@@ -161,7 +162,11 @@ if (have_posts()) :
 					echo "<time class='date-container minor-meta updated' $markup>".get_the_time(get_option('date_format'))."</time>";
 					echo "<span class='text-sep text-sep-date'>/</span>";
 				}
-
+				
+				if( get_post_meta( $post->ID, '_goo_book_author', true ) ){
+					echo get_post_meta( $post->ID, '_goo_book_author', true );
+				}
+				
 
                     if ( get_comments_number() != "0" || comments_open() ){
 

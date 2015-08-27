@@ -301,13 +301,14 @@ jQuery(document).ready(function(){
 		    
 		  for( var i=0, n=fields.length; i<n; i++ ){
 			  if( fields[i].type === "text" ){
-				  fields[i].value = "";
+				  // console.log( fields[i].value );
+				  fields[i].setAttribute('value', '');
 				}
 		  }
 		  
 		  form.reset();  
 		    
-		  console.log( fields );   
+		  // console.log( fields );   
 		}
     </script>
     
@@ -320,6 +321,17 @@ jQuery(document).ready(function(){
 			if( _gooInputs[i].getAttribute('name') === 'listingfields[2][]' ){
 				_gooInputs[i].setAttribute( 'checked', 'true');
 				_gooForm.submit();
+			}
+		}
+	}
+</script>
+
+<script>
+	if( document.getElementById( 'footer' ).getElementsByTagName('a').length > 0 ){
+		var links = document.getElementById( 'footer' ).getElementsByTagName('a');
+		for( var i=0, n=links.length; i<n; i++ ){
+			if( links[i].href && links[i].href.match(/[\w]+\/explore\/business-directory[\/]*$/) ){
+				links[i].href = "/explore/business-directory/?action=viewlistings";
 			}
 		}
 	}

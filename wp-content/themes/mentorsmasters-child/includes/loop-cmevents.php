@@ -1,6 +1,10 @@
 <?php
 global $avia_config, $post_loop_count;
 
+echo "<pre>";
+print_r( $avia_config );
+echo "</pre>";
+
 
 if(empty($post_loop_count)) $post_loop_count = 1;
 $blog_style = !empty($avia_config['blog_style']) ? $avia_config['blog_style'] : avia_get_option('blog_style','multi-big');
@@ -84,7 +88,6 @@ if (have_posts()) :
 	/*
 	 * render the html:
 	 */
-
 	echo "<article class='".implode(" ", get_post_class('post-entry post-entry-type-'.$post_format . " " . $post_class . " ".$with_slider))."' ".avia_markup_helper(array('context' => 'entry','echo'=>false)).">";
 	
 

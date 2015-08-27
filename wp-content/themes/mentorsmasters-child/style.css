@@ -831,7 +831,7 @@ tr.wpbdp-billing-field td
 		margin-top: 0;
 		margin-bottom: 0;
 		line-height: 1em;
-		font-size: 36px;
+		font-size: 24px;
 		height: auto;
 		min-height: none;
 		display: block;
@@ -1140,7 +1140,7 @@ img[src*="/default-image-big.gif"]
 
 form#wpbdmsearchform input#searchsubmit
 {
-	width: 18%;
+	width: 20%;
 	display: inline-table;
 	height: 33px;
 	line-height: 36px;
@@ -1284,7 +1284,7 @@ span.wpfp-span a:hover
 }
 
 .wpbdmcheckboxclass.wpbdp-inner-checkbox {
-    width: 20%;
+    width: 33%;
     display: inline-table;
     padding-right: 20px;
 }
@@ -1379,8 +1379,41 @@ form#cmevents-searchform input[type=text]
 	display: inline-table;
 }
 
+#top .avia-search-tooltip .inner_tooltip form.wpbdp-search-form,
+#top .avia-search-tooltip .inner_tooltip form.wpbdp-search-form input
+{
+	margin-bottom: 0;
+	
+}
 
-/* 
-9494 Ashbury Circle #106
-Parker, CO 80134
-*/
+#top .avia-search-tooltip .inner_tooltip form.wpbdp-search-form
+{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+#top.page-id-3466 #main .av-special-heading h2 span.special_amp
+{
+	color: #666;
+}
+
+.wpbdp-bar #wpbdmsearchform
+{
+	margin-top: 60px !important;
+}
+
+.wpbdp-main-links
+{
+	display: none;
+}
+
+.zipcode-search-distance-fields
+{
+	max-width: 100px;
+}
+
+p i
+{
+	font-style: italic;
+}

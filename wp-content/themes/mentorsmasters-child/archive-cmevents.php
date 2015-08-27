@@ -30,10 +30,10 @@
 							?>
 							<div style="margin-bottom: 40px;padding-bottom: 40px; border-bottom: 1px solid rgb(220,220,220);">
 								<div style="padding: 10px 20px;">
-								<p style="text-align: center;"><em>"Success comes when people act together; failure tends to happen alone."</em>
+								<p style="text-align: center;"><em>"Success comes when people act together; failure tends to happen alone."</em><br/>
 Deepak Chopra</p>
 							
-<span style="font-family: Arial, serif;"><span style="font-size: medium;">Tap into the power of community for inspiration and support by attending events. Browse our calendar to discover the many worthwhile events happening in your neighborhood and around the world.</span></span>
+<span style="font-family: Arial, serif;"><span style="font-size: medium;font-size: 1.2em;">Tap into the power of community for inspiration and support by attending events. Browse our calendar to discover the many worthwhile events happening in your neighborhood and around the world.</span></span>
 								</div>
 							</div>
 							<?php
@@ -56,6 +56,8 @@ Deepak Chopra</p>
 	                
 		            $cm_citysearch = isset( $_GET['cmevents-citysearch'] ) ? $_GET['cmevents-citysearch'] : NULL;
 		            $cm_statesearch = isset( $_GET['cmevents-statesearch'] ) ? $_GET['cmevents-statesearch'] : NULL;
+	                
+	                
 	                
 	                $args = array(
 						'post_type' => 'cmevents'
@@ -119,10 +121,49 @@ Deepak Chopra</p>
 	                echo "<pre>";
 	                print_r( $cmevents->posts );
 	                echo "</pre>";
-	                
-	               
-	             
 	                ?>
+
+					<?php
+                    $avia_config['blog_style'] = apply_filters('avf_blog_style', avia_get_option('blog_style','multi-big'), 'archive');
+                    if($avia_config['blog_style'] == 'blog-grid')
+                    {
+                        // global $posts;
+                        $post_ids = array();
+                        foreach($posts as $post) $post_ids[] = $post->ID;
+
+                        if(!empty($post_ids))
+                        {
+                            $atts   = array(
+                                'type' => 'grid',
+                                'items' => get_option('posts_per_page'),
+                                'columns' => 3,
+                                'class' => 'avia-builder-el-no-sibling',
+                                'paginate' => 'yes',
+                                'use_main_query_pagination' => 'yes',
+                                'custom_query' => array( 'post__in'=>$post_ids, 'post_type'=>get_post_types() ),
+                                'cmevents' => $cmevents,
+                            );
+
+                            $blog = new avia_post_slider($atts);
+                            $blog->query_entries();
+                            echo "<div class='entry-content-wrapper'>".$blog->html()."</div>";
+                        }
+                        else
+                        {
+                            get_template_part( 'includes/loop', 'index' );
+                        }
+                    }
+                    else
+                    {
+                        /* Run the loop to output the posts.
+                        * If you want to overload this in a child theme then include a file
+                        * called loop-index.php and that will be used instead.
+                        */
+
+                        $more = 0;
+                        get_template_part( 'includes/loop', 'cmevents' );
+                    }
+                    ?>
 
 				<!--end content-->
 				</main>
